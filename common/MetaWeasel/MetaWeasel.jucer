@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="GyDQqy" name="MetaWeasel" projectType="guiapp" jucerVersion="5.4.2"
+              companyName="Heynow Software" companyWebsite="https://www.heynow.com"
+              companyEmail="jay@heynow.com" bundleIdentifier="com.heynow.metaweasel"
+              headerPath="../../../heynow" version="0.2.0">
+  <MAINGROUP id="XD22tQ" name="MetaWeasel">
+    <GROUP id="{D2461AA7-4DA5-9F86-3B45-2D0477C2E829}" name="heynow">
+      <GROUP id="{DB0CF88D-2080-3DC4-F0D5-5BE8EEE43765}" name="components">
+        <FILE id="PwGuux" name="DocumentWindow.cpp" compile="1" resource="0"
+              file="../heynow/components/DocumentWindow.cpp"/>
+        <FILE id="ZRIilk" name="DocumentWindow.h" compile="0" resource="0"
+              file="../heynow/components/DocumentWindow.h"/>
+        <FILE id="XLhZFS" name="PathListDropComponent.cpp" compile="1" resource="0"
+              file="../heynow/components/PathListDropComponent.cpp"/>
+        <FILE id="vxMEYP" name="PathListDropComponent.h" compile="0" resource="0"
+              file="../heynow/components/PathListDropComponent.h"/>
+      </GROUP>
+      <GROUP id="{F4CB3DD5-AB58-D133-C07D-20B35DFC9295}" name="core">
+        <FILE id="pHINm9" name="AppProperties.cpp" compile="1" resource="0"
+              file="../heynow/core/AppProperties.cpp"/>
+        <FILE id="DMZ8w6" name="AppProperties.h" compile="0" resource="0" file="../heynow/core/AppProperties.h"/>
+        <FILE id="GDk14D" name="PropsFile.cpp" compile="1" resource="0" file="../heynow/core/PropsFile.cpp"/>
+        <FILE id="xXgX3u" name="PropsFile.h" compile="0" resource="0" file="../heynow/core/PropsFile.h"/>
+      </GROUP>
+    </GROUP>
+    <GROUP id="{F14F466D-160E-D878-69E3-D981B56A1919}" name="Source">
+      <FILE id="Gd9Pdp" name="AboutComponent.cpp" compile="1" resource="0"
+            file="Source/AboutComponent.cpp"/>
+      <FILE id="FoRqb1" name="AboutComponent.h" compile="0" resource="0"
+            file="Source/AboutComponent.h"/>
+      <FILE id="pqbxr6" name="ImageListBox.cpp" compile="1" resource="0"
+            file="Source/ImageListBox.cpp"/>
+      <FILE id="Ob76cY" name="ImageListBox.h" compile="0" resource="0" file="Source/ImageListBox.h"/>
+      <FILE id="DWOHzb" name="ImageListModel.cpp" compile="1" resource="0"
+            file="Source/ImageListModel.cpp"/>
+      <FILE id="DoPZtW" name="ImageListModel.h" compile="0" resource="0"
+            file="Source/ImageListModel.h"/>
+      <FILE id="WkZgP3" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="f3Djr6" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="mWnf62" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+    </GROUP>
+    <GROUP id="{50808131-FF00-7255-5B45-78C28CAB4930}" name="Assets">
+      <FILE id="fw6sAZ" name="weasel-drawing.png" compile="0" resource="1"
+            file="Assets/weasel-drawing.png"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" externalLibraries="exiv2" smallIcon="fw6sAZ"
+               bigIcon="fw6sAZ">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" libraryPath="/usr/local/opt/exiv2/lib;"
+                       headerPath="/usr/local/opt/exiv2/include"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path=""/>
+        <MODULEPATH id="juce_events" path=""/>
+        <MODULEPATH id="juce_graphics" path=""/>
+        <MODULEPATH id="juce_data_structures" path=""/>
+        <MODULEPATH id="juce_gui_basics" path=""/>
+        <MODULEPATH id="juce_gui_extra" path=""/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <VS2017 targetFolder="Builds/VisualStudio2017" externalLibraries="exiv2.lib&#10;expat.lib&#10;libcharset.lib&#10;libiconv.lib&#10;xmp.lib"
+            extraCompilerFlags="/wd4324 /wd4100" smallIcon="fw6sAZ" bigIcon="fw6sAZ">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" libraryPath="c:\tools\vcpkg\installed\x86-windows-static\Debug\lib;"
+                       headerPath="c:\tools\vcpkg\installed\x86-windows-static\include;"
+                       winArchitecture="Win32" useRuntimeLibDLL="0"/>
+        <CONFIGURATION isDebug="0" name="Release" libraryPath="C:\tools\vcpkg\installed\x86-windows-static\lib;"
+                       headerPath="c:\tools\vcpkg\installed\x86-windows-static\include;"
+                       winArchitecture="Win32" useRuntimeLibDLL="0"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path=""/>
+        <MODULEPATH id="juce_events" path=""/>
+        <MODULEPATH id="juce_graphics" path=""/>
+        <MODULEPATH id="juce_data_structures" path=""/>
+        <MODULEPATH id="juce_gui_basics" path=""/>
+        <MODULEPATH id="juce_gui_extra" path=""/>
+      </MODULEPATHS>
+    </VS2017>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <OSX/>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
