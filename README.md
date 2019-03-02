@@ -9,11 +9,11 @@ MetaWeasel lets you view [exif metadata](https://www.slrphotographyguide.com/wha
 
 **Windows Screenshot**
 
-<img src="./screenshot_win.png" width=400>
+<img src="screenshot_win.png" width=400>
 
 **macOS Screenshot**
 
-<img src="./screenshot_mac.png" width=400>
+<img src="screenshot_mac.png" width=400>
 
 ## How To Build
 
