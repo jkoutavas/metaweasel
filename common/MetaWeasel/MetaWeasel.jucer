@@ -50,9 +50,10 @@
     <XCODE_MAC targetFolder="Builds/MacOSX" externalLibraries="exiv2" smallIcon="fw6sAZ"
                bigIcon="fw6sAZ">
       <CONFIGURATIONS>
-        <CONFIGURATION isDebug="1" name="Debug" libraryPath="/usr/local/opt/exiv2/lib;"
+        <CONFIGURATION isDebug="1" name="Debug" libraryPath="/usr/local/opt/exiv2/lib"
                        headerPath="/usr/local/opt/exiv2/include"/>
-        <CONFIGURATION isDebug="0" name="Release"/>
+        <CONFIGURATION isDebug="0" name="Release" headerPath="/usr/local/opt/exiv2/include"
+                       libraryPath="/usr/local/opt/exiv2/lib"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
         <MODULEPATH id="juce_core" path=""/>
