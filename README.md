@@ -5,6 +5,9 @@
 
 <img src="common/MetaWeasel/Assets/weasel-drawing.png" width=250>
 
+
+(From https://www.heynow.com/metaweasel)
+
 MetaWeasel lets you view [exif metadata](https://www.slrphotographyguide.com/what-is-exif-metadata/) on images and remove Exif.Image.ImageDescription tags from them, a common task that my underwater photography friend has to deal with manually, so I made him a utility for it. MetaWeasel is based on the excellent [Exiv cross-platform library](http://www.exiv2.org/index.html) and builds on macOS and Windows using the [JUCE application framework](http://www.juce.com).
 
 **Windows Screenshot**
