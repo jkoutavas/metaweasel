@@ -60,4 +60,4 @@ vcpkg install --triplet x86-windows exiv2
 
 ## Doing the build
 
-You can hand-build MetaWeasel by opening `{clone-root/common/MetaWeasel/MetalWeasel.jucer}` in Projucer and then generating the Xcode or Visual Studio 2017 IDE project, and building that. That is the normal path for doing development work on the project, using the Debug configuration. 
+You can hand-build MetaWeasel by opening `{clone-root}/common/MetaWeasel/MetalWeasel.jucer` in Projucer and then generating the Xcode or Visual Studio 2017 IDE project, and building that. That is the normal path for doing development work on the project, using the Debug configuration. 
